@@ -9,8 +9,7 @@ export function createUuid(): string {
   const n = (s[19] & 0x3) | 0x8;
   s[19] = hexDigits.slice(n, n + 1);
   s[8] = s[13] = s[18] = s[23] = "-";
-  const uuid = s.join("");
-  return uuid;
+  return s.join("");
 }
 
 /**

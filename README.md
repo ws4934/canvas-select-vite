@@ -58,7 +58,7 @@
 ```
 
 ```bash
-npm install canvas-select --save
+npm install canvas-select-vite --save
 ```
 
 ```html
